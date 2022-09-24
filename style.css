@@ -853,6 +853,11 @@ h4 {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+
+  }
+
+  .col-sm-12.firstbloc {
+        background-color: #000000f0;
   }
 
 .col-sm-12.text-center {
