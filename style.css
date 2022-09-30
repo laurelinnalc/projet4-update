@@ -915,12 +915,13 @@ button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine.send:hover
     font-size: 1.4em;
 }
 
-.infos {
+address {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 50%;
     margin-top: 15px;
+    text-align: center;
 }
 
 .center-block {
