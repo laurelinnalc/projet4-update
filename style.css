@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,13 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.container.bloc-lg.bloccontact {
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 
 .d-bloc .a-btn:hover,
@@ -369,15 +375,20 @@ a:hover {
 }
 
 .text-center.hero-bloc-text.tc-white.tight-width-whitespace.colorwhite {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(57, 55, 55) !important;
 }
 .text-center.mg-lg.tc-white.tight-width-whitespace.details {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(57, 55, 55) !important;
     font-size: 1.2em;
 }
 .mg-md.text-center.tc-white.project {
-    color: white!important;
+    color: #F3976C!important;
 }
+
+.row.contact {
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 33px;
+} 
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -754,10 +765,14 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.footer-title {
+    color: #000000!important;
+    font-size: 0.9em;
 }
 
+.text-center.white.details {
+    color: white!important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -801,12 +816,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #171717!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #f8f6f5!important;
+    color: #171717!important;
 }
 
 .ltc-white {
@@ -857,7 +872,9 @@ h4 {
   }
 
   .col-sm-12.firstbloc {
-        background-color: #000000f0;
+        background-color: #131313e6;
+        padding-top: 15px;
+        padding-bottom: 30px;
   }
 
 .col-sm-12.text-center {
@@ -969,6 +986,13 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+blockquote {
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
 }
 
 @media (max-width: 767px) {
