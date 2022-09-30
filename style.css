@@ -710,6 +710,10 @@ p {
     font-size: 13px;
 }
 
+.medium-title {
+    font-size: 22px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -739,7 +743,7 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
+h4 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -843,6 +847,11 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+
+button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine.send:hover {
+    color: white!important;
+    background-color: #1e1d1de0!important;
 }
 
 .bg-dots-bg {
