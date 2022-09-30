@@ -743,6 +743,10 @@ h2 {
     line-height: 1.4em;
 }
 
+.section-title {
+    font-size: 27px;
+}
+
 h4 {
     font-size: 15px;
     text-transform: uppercase;
@@ -863,11 +867,11 @@ button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine.send:hover
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 /*MODIFICATION SEO */
@@ -903,7 +907,7 @@ button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine.send:hover
 
 
 .col-xs-12.col-md-8.col-md-offset-2.text-center p {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-style: italic;
     max-width: 70%;
 }
