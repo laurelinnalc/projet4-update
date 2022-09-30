@@ -929,8 +929,9 @@ button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine.send:hover
 }
 
 
-
-
+.img-responsive.portfolio-thumb {
+    width: 100%;
+}
 
 
 
