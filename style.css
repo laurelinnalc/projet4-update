@@ -684,6 +684,10 @@ a {
     color: #575757!important;
 }
 
+label {
+    color: black!important;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -922,6 +926,7 @@ address {
     width: 50%;
     margin-top: 15px;
     text-align: center;
+    color: black;
 }
 
 .center-block {
